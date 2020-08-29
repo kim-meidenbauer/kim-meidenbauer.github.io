@@ -6307,6 +6307,18 @@ button.bg-dark:focus {
   clear: both;
   content: "";
 }
+.citation-title {
+  text-align: center !important;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  font-style: italic !important;
+}
+
+.citation-rest {
+  text-align: center !important;
+  font-size: 1rem;
+  font-style: italic !important;
+}
 
 .d-none {
   display: none !important;
@@ -10055,6 +10067,16 @@ h3 {
   width: 3.25rem;
   height: 3.25rem;
   font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-osf {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 1rem;
+  height: 1em;
+  font-size: 15rem;
   justify-content: center;
   align-items: center;
 }
